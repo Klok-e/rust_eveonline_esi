@@ -1,6 +1,6 @@
 [package]
 name = "rust_eveonline_esi"
-version = "1.17.0"
+version = "1.19.0"
 authors = ["OpenAPI Generator team and contributors"]
 description = "An OpenAPI for EVE Online"
 # Override this license by providing a License Object in the OpenAPI.
@@ -12,7 +12,7 @@ serde = "^1.0"
 serde_derive = "^1.0"
 serde_json = "^1.0"
 url = "^2.2"
-uuid = { version = "^1.0", features = ["serde"] }
+uuid = { version = "^1.0", features = ["serde", "v4"] }
 [dependencies.reqwest]
 version = "^0.11"
 features = ["json", "multipart"]
